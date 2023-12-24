@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #F5D04E;
+  font-family: 'Figtree', sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  gap: 10px;
+  margin: 100px auto;
+  border-radius: 10px;
+  border: 1px solid #808080;
+  box-shadow: 0.4rem 0.4rem #121212;
+  background-color: #fff;
+  max-width: 280px;
+  max-height: 380px;
+  padding: 0.875rem;
+}
+
+.button {
+  background-color: #F5D04E;
+  border-radius: 5px;
+  width: 60px;
+  text-align: center;
+  font-size: 0.7rem;
+  padding: 0.3rem;
+}
+
+
+.card span {
+  font-size: 0.7rem;
+}
+
+.card h1 {
+  font-size: 1rem;
+  color: #121212;
+  cursor: pointer;
+}
+
+.card h1:hover {
+  color: #F5D04E;
+}
+
+.card img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.card p {
+  font-size: 0.7rem;
+  color: #808080;
+}
+
+
+.author {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.875rem;
+
+}
+
+.author img {
+  width: 22px;
+}
+
+.author h2 {
+  font-size: 0.7rem;
+}
+
+.attribution {
+  text-align: center;
+ color: #121212;
+}
